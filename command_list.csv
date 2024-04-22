@@ -1,0 +1,55 @@
+    1  clear
+    2  git clone 
+    3  clear
+    4  git clone https://github.com/julia7071/HW_10.git
+    5  clear
+    6  cd /c/Users/julij/Desktop/HWGIT
+    7  git clone https://github.com/julia7071/HW_10.git
+    8  clear
+    9  cd /c/Users/julij/Desktop/HWGIT
+   10  git clone https://github.com/julia7071/HW_10.git
+   11  clear
+   12  cd hw/
+   13  clear
+   14  cd HW clear
+   15  clear
+   16  /c/Users/julij/Desktop/HWGIT
+   17  clear
+   18  cd /c/Users/julij/Desktop/HWGIT
+   19  git clone https://github.com/julia7071/HW_10.git
+   20  clear
+   21  git clone https://github.com/julia7071/HW_10.git
+   22  clear
+   23  git clone https://github.com/julia7071/HW_10.git
+   24  cd HW_10
+   25  git config --global user.name "julij Komputer"
+   26  git config --global user.email "ysavaryn19@gmail.com"
+   27  clear
+   28  touch text_ignore.txt
+   29  echo text_ignore.txt > .gitignore
+   30  git status
+   31  git add .
+   32  git commit -m "Commit1"
+   33  touch main_test.txt
+   34  git add .
+   35  git commit -m "Commit2"
+   36  git checkout -b develop
+   37  git branch
+   38  touch develop_test.txt
+   39  ls -l
+   40  git add .
+   41  git commit -m "Commit3"
+   42  echo develop > .develop_test.txt
+   43  git status
+   44  git add develop_test.txt
+   45  git status
+   46  git add .
+   47  git status
+   48  git add .
+   49  git commit -m "Commit4"
+   50  git checkout main
+   51  git merge develop 
+   52  git log
+   53  history > command_list.csv.
+   54  git add .
+   55  history > command_list.csv
